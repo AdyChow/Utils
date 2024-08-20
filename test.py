@@ -85,4 +85,5 @@ if __name__ == '__main__':
         if os.path.isfile(f) and f.endswith(".json"):
             print("move file %s" % f)
             shutil.move(f, output_dir)
+    print("test commit")
 
